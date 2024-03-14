@@ -1,0 +1,118 @@
+   
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: "Inter", sans-serif;
+   border-radius: 8px;
+}
+
+#barrapesquisa {
+    border-radius: 6px;
+    border: none;
+    outline: 1px solid #d4d4d4 ;
+    width: 320px;
+    height: 32px;
+}
+
+#btcliente {
+    background-color: #2264E5;
+    color: white;
+    width: 146px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    outline: 1px solid white;
+}
+
+.button {
+    background-color: #ffffff;    
+    border-radius: 8px;
+    font-size: 10px;
+    border: none;
+    color: #d4d4d4;
+    padding: 5px;
+    outline: 1px solid #d4d4d4 ;
+}
+
+#seta {
+  font-size: 19px;
+}
+
+table::after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: orangered;
+}
+
+
+#main-container {
+    width: 100%;
+    max-width: 80vw;
+    max-height: 60vh;
+    margin: auto;
+    margin-top: 20vh;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    outline: #f7f9fc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption  {
+    height: 60px;
+    padding: 10px;
+    div {
+        display: flex;
+        justify-content: space-between;     
+    }
+    #filter > input {
+        margin: 0 10px;
+    }
+}
+
+thead > tr, caption {
+    background: #F4F7FC;
+    border: 0px;
+}
+
+
+tr {
+    padding: 0;
+    height: 30px;
+}
+
+
+/* 
+tr:first-child {
+    background: #F4F7FC;
+    border: none;
+} */
+
+tr > th {
+    text-align: left;
+    height: 20px;
+    padding-left: 5px;
+    display: table-cell;
+}
+
+
+tr > th:first-child {
+    max-width: 10px;
+    width: 2%
+}
+
+td {
+    /* display: flex; */
+    justify-content: left;
+    align-items: center;
+    padding: 2px;
+}
+
+tbody tr:nth-child(even) {
+    background-color:  #F4F7FC;
+}
